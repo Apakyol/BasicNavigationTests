@@ -13,6 +13,8 @@ public class BrowserFactory {
         WebDriver driver=new ChromeDriver();
 
 
+
+
         String browser=null;
 
         if ((System.getProperty("os.name").equals("Windows 11 home")&&browser.equals("safari")||
